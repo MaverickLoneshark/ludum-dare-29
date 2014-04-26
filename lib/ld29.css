@@ -1,0 +1,19 @@
+/*
+Ludum Dare 29
+Tustin2121 & MaverickLoneshark
+*/
+
+body 
+{
+	background-color:#aa8800;
+}
+
+#CanvasSpace
+{
+	outline-width:0px;
+	border-width:0px;
+	border-spacing:0px;
+	padding:0px;
+	margin:0px;
+	/*WHAT THE HELL IS IT ALREADY?! WHY CAN'T THE CANVASES BE CONTIGUOUS?*/
+}

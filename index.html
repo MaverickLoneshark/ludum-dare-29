@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>LD29 - MaverickLoneshark and Tustin2121</title>
+	<title>LD29 - Grounded</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel='stylesheet' type='text/css' href='lib/ld29.css'>
 	<script src="lib/jquery-2.1.0.min.js"></script>
 	<script src="lib/main.js"></script>
+	<script src="lib/CanvasManager.js"></script> <!-- I wanted JQuery to load dependencies like this in the main.js script -->
 </head>
-<body>
+
+<body onload="var app = new App();">
 	<h3>MaverickLoneshark and Tustin2121 present</h3>
-	<h1>[Missle Command Knockoff NAME PENDING]</h1>
-	<canvas id="Canvas" width="800" height="600" style="background-color:#000000; border:1px solid #000000;">
-		Your browser doesn't support the canvas tag and is incompatible. Try Firefox or Chrome =P
-	</canvas>
+	<h1>Grounded</h1>
+	
+	<div id="CanvasSpace">
+		<canvas id="Sky" width="1024" height="512" style="background-color:#4444ff;">
+			Your browser doesn't support the canvas tag and is incompatible. Try Firefox or Chrome =P
+		</canvas>
+		<canvas id="Ground1" width="1024" height="256" style="background-color:#ccaa00;">
+			Your browser doesn't support the canvas tag and is incompatible. Try Firefox or Chrome =P
+		</canvas>
+		<canvas id="Ground2" width="1024" height="256" style="background-color:#aa8800;">
+			Your browser doesn't support the canvas tag and is incompatible. Try Firefox or Chrome =P
+		</canvas>
+		<canvas id="Ground3" width="1024" height="256" style="border:1px solid #000000;">
+			Your browser doesn't support the canvas tag and is incompatible. Try Firefox or Chrome =P
+		</canvas>
+	</div>
+	
 	<p>Isn't it pretty? :)</p>
 </body>
 </html>
