@@ -1,0 +1,467 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"__",
+				"__keyboard"
+			],
+			[
+				"cols",
+				"cols-1"
+			],
+			[
+				"N",
+				"NAMELIMIT"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"p",
+				"pkmnKeyboard"
+			],
+			[
+				"chat",
+				"chatinterface"
+			],
+			[
+				"swit",
+				"switchToKeyboard"
+			],
+			[
+				"app",
+				"appendTo"
+			],
+			[
+				"sub",
+				"submitCommand"
+			],
+			[
+				"cm",
+				"cmditem"
+			],
+			[
+				"curr",
+				"currName"
+			],
+			[
+				"ap",
+				"appendTo"
+			],
+			[
+				"n",
+				"next"
+			],
+			[
+				"__ch",
+				"__characters"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"object",
+				"objectloop"
+			],
+			[
+				"chlo",
+				"chloroform-induced"
+			],
+			[
+				"VERIFY_",
+				"VERIFY_UNLIKELY"
+			],
+			[
+				"act",
+				"action"
+			],
+			[
+				"ve",
+				"verbWord"
+			],
+			[
+				"ver",
+				"verbWord_num"
+			],
+			[
+				"pa",
+				"parentAction"
+			],
+			[
+				"fun",
+				"function	function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 375,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 35.0,
+		"selected_items":
+		[
+			[
+				"block",
+				"Toggle Block Comment"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 118.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Tim/Dropbox/Current Projects/TPPCrystal/TPP_Misc/Chat Keyboard/testKeyboard2.html",
+		"/C/Users/Tim/Dropbox/Current Projects/TPPCrystal/TPP_Misc/Chat Keyboard/pkmn_keyboard.css",
+		"/C/Users/Tim/Dropbox/Current Projects/TPPCrystal/TPP_Misc/Chat Keyboard/pkmn_keyboard.js",
+		"/C/Users/Tim/Documents/GitHub/TPPNamingKeyboard/pkmn_keyboard.css",
+		"/C/Users/Tim/Documents/GitHub/TPPNamingKeyboard/pkmn_keyboard.js",
+		"/C/Users/Tim/Dropbox/Current Projects/TobogginTrip/TobogginTrip-Unity/Assets/Game Assets/scripts/PerlinNoise.cs",
+		"/C/Users/Tim/Documents/DAZ 3D/Studio/KINGLib/Characters/!Kids/Tanner_G2.duf",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/inform6.sublime-settings",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Tim/Dropbox/Current Projects/Inform/kidnapping/BehavioDispositionMap.xlsx",
+		"/C/Users/Tim/Dropbox/Current Projects/Inform/kidnapping/kidnapping.sublime-project",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/C++/Symbol List - Prefix Banner Items.tmPreferences",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/Inform6/Comments (Inform6).tmPreferences",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/C++/Comments (C++).tmPreferences",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/Inform6/inform6.tmLanguage",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/Inform6/Completion Rules.tmPreferences",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/C++/Symbol List - Indent Class Methods.tmPreferences",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/C++/Indentation Rules.tmPreferences",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/C++/Enumeration.sublime-snippet",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/C++/C.tmLanguage",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/C++/Completion Rules.tmPreferences",
+		"/C/Users/Tim/Dropbox/Current Projects/Inform/kidnapping/kidnapping.inf",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/Inform7/room.sublime-snippet",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/C/Users/Tim/Dropbox/Current Projects/PrinceRyas/CastleGodrey.fla",
+		"/C/Users/Tim/Dropbox/Current Projects/PrinceRyas/CastleLocations.gyx",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Tim/Dropbox/Current Projects/Inform/lib/parserm.h",
+		"/C/Users/Tim/Dropbox/Current Projects/Inform/lib/VerbLib.h",
+		"/C/Users/Tim/AppData/Roaming/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/C/Users/Tim/Dropbox/Current Projects/js-if/lib/jsif-style.css",
+		"/C/Users/Tim/Dropbox/Current Projects/js-if/ut/jsif-ut-main.js",
+		"/C/Users/Tim/Dropbox/Current Projects/js-if/ut/jsif-ut-object.js",
+		"/C/Users/Tim/Dropbox/Current Projects/js-if/lib/parser-notes.txt",
+		"/C/Users/Tim/Dropbox/Current Projects/js-if/lib/jsif-objects.js",
+		"/C/Users/Tim/Dropbox/Current Projects/js-if/lib/jsif-parser.js",
+		"/C/Users/Tim/Dropbox/Current Projects/Bus iFiction/moai-busIFiction/src/hp/lang/class.lua",
+		"/C/Users/Tim/Dropbox/Current Projects/Bus iFiction/moai-busIFiction/src/scene/test.lua",
+		"/C/Users/Tim/Dropbox/Current Projects/Bus iFiction/moai-busIFiction/src/luaif/parser.lua",
+		"/C/Users/Tim/Dropbox/Current Projects/Bus iFiction/moai-busIFiction/src/hp/rpg/RPGMapView.lua",
+		"/C/Users/Tim/Dropbox/Current Projects/Bus iFiction/moai-busIFiction/src/luaif/objects.lua",
+		"/C/Users/Tim/Dropbox/Current Projects/Bus iFiction/moai-busIFiction/src/actions/parser.lua",
+		"/C/Users/Tim/Dropbox/Current Projects/Bus iFiction/moai-busIFiction/src/hp/tmx/TMXMapView.lua"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"C:\\Users\\tpittman\\Dropbox\\Current Projects\\Inform\\kidnapping"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"compass_look",
+			"introed",
+			"the_time",
+			"time",
+			"thetime",
+			"shake",
+			"^([A-Z]\\w*)\\s+(->\\s+)*([a-zA-Z][a-zA-Z0-9_]*)(\\s+\"[a-zA-Z][a-zA-Z0-9_]*\")?(\\s+[a-zA-Z][a-zA-Z0-9_]*)?$",
+			"^([A-Z]\\w*)\\s+(\\-\\>\\s+)+",
+			"^([A-Z]\\w*)\\s+(\\-\\>\\s+)*",
+			"^([A-Z]\\w*)",
+			"^([A-Z]\\w*)\\s+",
+			"^([A-Z]\\w*)\\s+(\\-\\>\\s+)*",
+			"\\];?",
+			"commonGrammer",
+			"Wear",
+			"second",
+			"Close",
+			"close",
+			"Close",
+			"CloseAction",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"Close",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"open",
+			"Open",
+			"OpenAction",
+			"obj1",
+			"Unlock",
+			"Open",
+			"Lock",
+			"Open",
+			"Lock",
+			"lock",
+			"Lock",
+			"LockAction",
+			"lock",
+			"Lock",
+			"lock",
+			"Lock",
+			"lock",
+			"Lock",
+			"LockAction",
+			"Lock",
+			"Search",
+			"search",
+			"Search",
+			"SearchAction",
+			"jsIF.language.lm",
+			"Search",
+			"Examine",
+			"examine",
+			"Examine",
+			"ExamineAction",
+			"brac",
+			"brack",
+			"n",
+			"DebugTimersAction",
+			"actions",
+			"DebugActionsAction",
+			"DebugActionAction",
+			"VersionAction",
+			"M",
+			"this",
+			"ctrl+shift+a",
+			"ctrl+l",
+			"ctrl+shift+d",
+			"ctrl+p",
+			"ctrl+pp",
+			"command",
+			"delete",
+			"ctrl+d",
+			"{};\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								215
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 107.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"en",
+				"lib/English.h"
+			],
+			[
+				"f",
+				"lib/jsif-functions.js"
+			],
+			[
+				"par",
+				"lib/jsif-parser.js"
+			],
+			[
+				"co",
+				"lib/jsif-core.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 178.0,
+	"status_bar_visible": true
+}
