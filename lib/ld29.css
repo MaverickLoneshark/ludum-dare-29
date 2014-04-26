@@ -3,16 +3,37 @@ Ludum Dare 29
 Tustin2121 & MaverickLoneshark
 */
 
-body 
-{
-	background-color:#884400;
+html body {
+	margin: 0px;
+	padding: 0px;
+	background-color:#00287D;
+	color: white;
 }
 
-#CanvasSpace
-{
-	outline-width:0px;
-	border-width:0px;
-	border-spacing:0px;
+#title {
+	width: 600px;
+	height: 400px;
+	margin: 320px auto 0;
+	text-align: center;
+	z-index: 100;
+}
+
+#wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/* The sky is a canvas for your dreams! */
+
+#sky {
+	position: absolute;
+	top: 0px;
+}
+
+#sky canvas {
+	/*outline-width:0px;*/
+	position: absolute;
+	border: 1px white dotted;
 	padding:0px;
 	margin:0px;
 	/*WHAT THE HELL IS IT ALREADY?! WHY CAN'T THE CANVASES BE CONTIGUOUS?*/
