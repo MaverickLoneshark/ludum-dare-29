@@ -6,6 +6,7 @@ Ludum Dare 29
 72 Hour Jam Rules
 
 The rules are the same as the 48 hour compo except:
+
 -You can work with other people as a team.
 
 -You do not have to provide a copy of your source code.
