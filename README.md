@@ -1,7 +1,6 @@
-ludum-dare-29
-=============
-
 Ludum Dare 29
+=============
+THEME: BENEATH THE SURFACE
 
 72 Hour Jam Rules
 
