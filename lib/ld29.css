@@ -1,12 +1,16 @@
 /*
 Ludum Dare 29
 Tustin2121 & MaverickLoneshark
+
+ヽ༼ຈل͜ຈ༽ﾉ RIOT ヽ༼ຈل͜ຈ༽ﾉ
 */
 
 html body {
 	margin: 0px;
 	padding: 0px;
-	background-color:#00287D;
+	/*background-color:#00287D;*/
+	background-image: url("../img/bg.png");
+	background-repeat: repeat-x;
 	color: white;
 }
 
@@ -23,8 +27,38 @@ html body {
 	margin: 0 auto;
 }
 
-/* The sky is a canvas for your dreams! */
 
+/* HUD */
+.right-hud {
+	position: fixed;
+	bottom: 0; right: 0;
+	width: 400px; height: 100px;
+	background-color: red;
+	z-index: 90;
+}
+
+.left-hud {
+	position: fixed;
+	bottom: 0; left: 0;
+	width: 300px; height: 100px;
+	background-color: red;
+	z-index: 90;
+}
+
+.mid-hud {
+	position: fixed;
+	bottom: -5px; left: 0; right: 0;
+	margin: 0 auto;
+	width: 550px; height: 36px;
+	z-index: 90;
+	
+	border: 5px ridge #3B3B3B;
+	background-color: #A6A6A6;
+	color: white;
+}
+
+
+/* The sky is a canvas for your dreams! */
 #sky {
 	position: absolute;
 	top: 0px;
@@ -37,3 +71,95 @@ html body {
 	padding:0px;
 	margin:0px;
 }
+
+/* Buildings are the way of the future! */
+#buildings {
+	position: absolute;
+	top: 0;
+	width: 1024px; height: 100%;
+	
+	background-image: url("../img/test-grid.png");
+	background-repeat: repeat;
+	
+	z-index: 40;
+}
+
+/* Non-Building: Dirt */
+.dirt {
+	position: absolute;
+	background-image: url("../img/dirt.png");
+	background-repeat: no-repeat;
+	width: 32px; height: 32px;
+	z-index: -1;
+}
+.dirt.r0 { background-position-x: 0px; }
+.dirt.r1 { background-position-x: -32px; }
+.dirt.r2 { background-position-x: -64px; }
+.dirt.r3 { background-position-x: -96px; }
+.dirt.r4 { background-position-x: -128px; }
+.dirt.r5 { background-position-x: -160px; }
+.dirt.r6 { background-position-x: -192px; }
+.dirt.r7 { background-position-x: -224px; }
+
+.dirt.whole { background-position-y: 0px; }
+.dirt.right { background-position-y: -128px; }
+.dirt.left  { background-position-y: -160px; }
+
+
+/* Building: City */
+.building-city {
+	position: absolute;
+	background-image: url("../img/city.png");
+	background-repeat: no-repeat;
+	width: 128px; height: 64px;
+}
+.building-city.dmg0 {
+	background-position: 0px 0px;
+}
+.building-city.dmg1 {
+	background-position: 0px -64px;
+}
+.building-city.dmg2 {
+	background-position: 0px -128px;
+}
+.building-city.dmg3 {
+	background-position: 0px -192px;
+}
+
+
+/* Building: Outpost */
+.building-outpost {
+	position: absolute;
+	background-image: url("../img/outpost.png");
+	background-repeat: no-repeat;
+	width: 64px; height: 64px;
+	animation: OutpostSwivel 1s steps(6) infinite alternate both;
+	-webkit-animation: OutpostSwivel 1s steps(6) infinite alternate both;
+}
+.building-outpost.dmg0 {
+	background-position-y: 0px;
+}
+.building-outpost.dmg1 {
+	background-position-y: -64px;
+}
+.building-outpost.dmg2 {
+	background-position-y: -128px;
+}
+.building-outpost.dmg3 {
+	background-position-y: -192px;
+}
+
+@keyframes OutpostSwivel {
+	from {background-position-x: -0px; }
+	to   {background-position-x: -384px; }
+}
+
+@-webkit-keyframes OutpostSwivel {
+	from {background-position-x: -0px; }
+	to   {background-position-x: -384px; }
+}
+
+
+
+
+
