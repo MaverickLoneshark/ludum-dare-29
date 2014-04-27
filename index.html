@@ -7,7 +7,8 @@
 	<script src="lib/jquery-2.1.0.min.js"></script>
 	<script src="lib/main.js"></script>
 	
-<!-- it would be nice if we could have these loaded from main.js -you know who -->
+<!-- it would be nice if we could have these loaded from main.js -terry -->
+<!-- It would have been painful and taken forever to debug. For someone who hates libraries, like JQuery, you seem to love loading like a library -tim -->
 	<script src="lib/CanvasManager.js"></script>
 	<script src="lib/ProjectileManager.js"></script>
 	<script src="lib/UIManager.js"></script>
@@ -16,22 +17,24 @@
 </head>
 
 <body>
-	<div id="wrapper">
-		<div id="title">
-			<h3>MaverickLoneshark and Tustin2121 present</h3>
-			<h1>Grounded</h1><!-- NAME STILL PENDING! --> <!-- surprised you felt the need to say that... -->
-			
-			<div id="error">
-				If you can see this message, something most likely went wrong while loading the game:
-				<span id="errReason">Unknown reason.</span>
-				<noscript>
-					In order to play this game, Javascript MUST be enabled on your browser. 
-					Please make an exception for this page in your javascript blocking extension.
-				</noscript>
+	<div id="outerWrapper">
+		<div id="wrapper">
+			<div id="title">
+				<h3 style="margin-top: 0;">MaverickLoneshark and Tustin2121 present</h3>
+				<h1>Grounded</h1><!-- NAME STILL PENDING! --> <!-- surprised you felt the need to say that... -->
+				
+				<div id="error">
+					If you can see this message, something most likely went wrong while loading the game:
+					<span id="errReason">Unknown reason.</span>
+					<noscript>
+						In order to play this game, Javascript MUST be enabled on your browser. 
+						Please make an exception for this page in your javascript blocking extension.
+					</noscript>
+				</div>
 			</div>
+			<div id="sky"></div>
+			<div id="buildings"></div>
 		</div>
-		<div id="sky"></div>
-		<div id="buildings"></div>
 	</div>
 </body>
 </html>

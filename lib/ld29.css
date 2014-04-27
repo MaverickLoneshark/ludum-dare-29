@@ -5,9 +5,10 @@ Tustin2121 & MaverickLoneshark
 ヽ༼ຈل͜ຈ༽ﾉ RIOT ヽ༼ຈل͜ຈ༽ﾉ
 */
 
-html body {
+html, body {
 	margin: 0px;
 	padding: 0px;
+	height: 100%;
 	/*background-color:#00287D;*/
 	background-image: url("../img/bg.png");
 	background-repeat: repeat-x;
@@ -15,15 +16,24 @@ html body {
 }
 
 #title {
+	position: relative;
+	top: 300px;
 	width: 600px;
 	height: 400px;
-	margin: 320px auto 0;
+	margin: 0 auto;
 	text-align: center;
 	z-index: 100;
 }
 
+#outerWrapper {
+	height: 100%;
+	background-position-x: center;
+	background-image: url("../img/play-limit.png");
+	background-repeat: repeat-y;
+}
+
 #wrapper {
-	width: 1024px;
+	width: 1024px; height: 100%;
 	margin: 0 auto;
 }
 
