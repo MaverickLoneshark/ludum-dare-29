@@ -5,6 +5,10 @@ Tustin2121 & MaverickLoneshark
 ヽ༼ຈل͜ຈ༽ﾉ RIOT ヽ༼ຈل͜ຈ༽ﾉ
 */
 
+html {
+	overflow-y : scroll;
+}
+
 html, body {
 	margin: 0px;
 	padding: 0px;
@@ -35,7 +39,7 @@ html, body {
 
 #outerWrapper {
 	height: 100%;
-	background-position-x: center;
+	background-position: center;
 	background-image: url("../img/play-limit.png");
 	background-repeat: repeat-y;
 }
@@ -50,16 +54,19 @@ html, body {
 .right-hud {
 	position: fixed;
 	bottom: 0; right: 0;
-	width: 400px; height: 100px;
+	width: 300px; height: 100px;
 	background-color: red;
+	
 	z-index: 90;
 }
 
 .left-hud {
 	position: fixed;
 	bottom: 0; left: 0;
-	width: 300px; height: 100px;
-	background-color: red;
+	width: 400px; height: 124px;
+	
+	background-image: url("../img/hud-left.png");
+	background-position: 0px -276px;
 	z-index: 90;
 }
 
@@ -70,7 +77,8 @@ html, body {
 	width: 550px; height: 36px;
 	z-index: 90;
 	
-	border: 5px ridge #3B3B3B;
+	border-radius: 10px;
+	border:5px ridge #3B3B3B;
 	background-color: #A6A6A6;
 	color: white;
 }
