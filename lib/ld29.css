@@ -94,7 +94,7 @@ html, body {
 #sky canvas {
 	/*outline-width:0px;*/
 	position: absolute;
-	border: 1px white dotted;
+	/*border: 1px white dotted;*/
 	padding:0px;
 	margin:0px;
 }
@@ -105,7 +105,7 @@ html, body {
 	top: 0;
 	width: 1024px; height: 100%;
 	
-	background-image: url("../img/test-grid.png");
+	/*background-image: url("../img/test-grid.png");*/
 	background-repeat: repeat;
 	
 	z-index: 40;
