@@ -26,7 +26,7 @@ html, body {
 	/*height: 400px;*/
 	margin: 0 auto;
 	text-align: center;
-	/*z-index: 100;*/ /* We can put this back after we get it to fade out */
+	z-index: 100; /* We can put this back after we get it to fade out */
 	
 	/* Btw, select-none is apparently non-standard... */
 	-webkit-touch-callout: none;
@@ -164,15 +164,23 @@ html, body {
 }
 .building-outpost.dmg0 {
 	background-position-y: 0px;
+	animation: OutpostSwivel 1s steps(6) infinite alternate both;
+	-webkit-animation: OutpostSwivel 1s steps(6) infinite alternate both;
 }
 .building-outpost.dmg1 {
 	background-position-y: -64px;
+	animation: OutpostSwivel 1s steps(6) infinite alternate both;
+	-webkit-animation: OutpostSwivel 1s steps(6) infinite alternate both;
 }
 .building-outpost.dmg2 {
 	background-position-y: -128px;
+	animation: paused;
+	-webkit-animation: paused;
 }
 .building-outpost.dmg3 {
 	background-position-y: -192px;
+	animation: paused;
+	-webkit-animation: paused;
 }
 
 @keyframes OutpostSwivel {
