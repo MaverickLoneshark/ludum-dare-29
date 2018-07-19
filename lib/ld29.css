@@ -37,6 +37,19 @@ html, body {
 	user-select: none;
 }
 
+#game-over {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #ff000080;
+}
+
+#game-over-text {
+	position: relative;
+	top: 300px;
+	text-align: center;
+}
+
 #outerWrapper {
 	height: 100%;
 	background-position: center;
